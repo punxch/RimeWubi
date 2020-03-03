@@ -106,7 +106,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 
 ### Windows 小狼毫
-<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/windows_sken.png" width=300>
+<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/windows_skin.png" width=300>
 
 1. 点击【开始】
 2. 打开刚刚安装的小狼毫输入法程序目录，打开【用户文件夹】
