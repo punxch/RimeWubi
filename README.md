@@ -29,7 +29,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 <img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/Rime%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.gif" width=600 title="Rime五笔输入法输入样子">
 
 
-## 使用前的一些用户习惯说明
+### 使用前的一些用户习惯说明
 
 **<kbd>control</kbd> + <kbd>0</kbd> 弹出菜单**
 
@@ -48,7 +48,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 下载后按照步骤安装即可
 
 
-## 下载 五笔配置文件
+### 1. 下载 五笔配置文件
 也就是当前库，直接下载即可 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 
 其中的文件列表有：
@@ -75,7 +75,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ```
 
 
-## 设置五笔输入法 macOS 鼠须管
+### 2. 设置五笔输入法 macOS 鼠须管
 1. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime` 
 2. 把上面下载的文件移到该目录中，点击 <kbd>部署</kbd> 即可。
 
@@ -105,16 +105,18 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 > 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
 
-### Windows 小狼毫
+
+
+### 3. 皮肤
+<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=500>
+
+## 配置 小狼毫（Windows）
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/windows_skin.png" width=300>
 
 1. 点击【开始】
 2. 打开刚刚安装的小狼毫输入法程序目录，打开【用户文件夹】
 3. 把该项目中的文件复制到里面
 4. 点击开始菜单中的【部署】即可
-
-## 皮肤
-<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=500>
 
 ## 相关链接
 
@@ -132,7 +134,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 
 
-# 关于自定义一些功能
+## 关于自定义一些功能
 
 所有配置说明都在配置文件中说明了
 
@@ -151,14 +153,14 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ```
 
 
-## 输出系统 `时间` 和 `日期`
+### 1. 输出系统 `时间` 和 `日期`
 
 输入对应词，获取当前日期和时间
 - `date` 输出日期，格式 `2019年06月19日` `2019-06-19`
 - `time` 输出时间，格式 `10:00` `10:00:00`
 
 
-## 开启五笔模式下的自动造词功能
+### 2.开启五笔模式下的自动造词功能
 
 默认是没有开启的，如果想开启需要手动编辑 `wubi86_jidian.schema.yaml` 文件，里面也有相关的说明
 
@@ -188,7 +190,7 @@ translator:
 <img title="3" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-3.png" width="500">
 <img title="4" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-4.png" width="500">
 
-## 输出系统变量
+### 3. 输出系统变量
 
 自 `v0.13` 之后可自定义输出系统变量，如日期等
 
