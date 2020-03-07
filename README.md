@@ -40,7 +40,9 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 
 **关于【简入繁出】支持**
+
 <img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime-tradition-output.gif" width=500 title="简入繁出">
+
 是以切换输入方案的形式实现的，之前用菜单实现有个弊端：在切换应用后繁体输出的设置并没有保留，也就是说不是全局的，以输入方案的形式就可以实现全局繁体输入。
 <kbd>control</kbd> + <kbd>0</kbd> 呼出菜单，选择`极点五笔繁体`，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
 
@@ -112,9 +114,11 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 
 ### 3. 皮肤
+
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=500>
 
 ## 配置 小狼毫（Windows）
+
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/windows_skin.png" width=300>
 
 1. 点击【开始】
@@ -191,8 +195,11 @@ translator:
 效果如图：
 
 <img title="1" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-1.png" width="500">
+
 <img title="2" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-2.png" width="500">
+
 <img title="3" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-3.png" width="500">
+
 <img title="4" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-4.png" width="500">
 
 
