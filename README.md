@@ -136,7 +136,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ## 关于自定义一些功能
 
-所有配置说明都在配置文件中说明了
+所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`
 
 ```bash
 ├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
@@ -196,3 +196,4 @@ translator:
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
 具体 `rime.lua` 文件说明参阅这里： [https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua](https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua)
+
