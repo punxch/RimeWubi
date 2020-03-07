@@ -55,6 +55,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ```bash
 .
 ├── README.md                               # 当前说明文档
+├── numbers.schema.yaml                     # 输入方案 - 大写数字
 ├── rime.lua                                # 可以输出系统变量的函数
 ├── default.custom.yaml                     # 自定义一些输入法的功能：标点，二三候选等
 ├── pinyin_simp.dict.yaml                   # 简体拼音码表 - 五笔中拼音输入需要的
@@ -85,6 +86,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 └── Rime
     ├── README.md
     ├── default.custom.yaml
+    ├── numbers.schema.yaml 
     ├── pinyin_simp.dict.yaml
     ├── pinyin_simp.schema.yaml
     ├── squirrel.custom.yaml
@@ -139,6 +141,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`
 
 ```bash
+├── numbers.schema.yaml                     # 输入方案 - 大写数字
 ├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
 ├── default.custom.yaml                     # 自定义一些输入法的功能：标点，二三候选等
 ├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
@@ -160,7 +163,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 - `time` 输出时间，格式 `10:00` `10:00:00`
 
 
-### 2.开启五笔模式下的自动造词功能
+### 2. 开启五笔模式下的自动造词功能
 
 默认是没有开启的，如果想开启需要手动编辑 `wubi86_jidian.schema.yaml` 文件，里面也有相关的说明
 
@@ -190,7 +193,33 @@ translator:
 <img title="3" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-3.png" width="500">
 <img title="4" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-4.png" width="500">
 
-### 3. 输出系统变量
+
+### 3. 快捷输入大写数字：壹贰叁肆伍陆
+
+本库中包含一个可以输入大写数字的方案，名叫 `大写数字`，呼出菜单选择该方案即可。
+在这个模式下：具体可以看源文件 [`numbers.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/numbers.schema.yaml)
+
+
+| 键          | 对应值         |
+|------------|-------------|
+| 1234567890 | 一二三四五六七八九〇  |
+| wqbsjfd.    | 万千百十角分点     |
+| z          | 之整          |
+| y          | 月元亿         |
+
+| 键(按住 shift) | 对应值        |
+|-------------|------------|
+| 1234567890  | 壹贰叁肆伍陆柒捌玖零 |
+| wqbsjfd.     | 万佰仟拾角分第点    |
+| z           | 之整         |
+| y           | 月圆亿        |
+
+输入案例：
+<img title="1" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/input_number.gif" width="500">
+
+
+
+### 4. 输出系统变量
 
 自 `v0.13` 之后可自定义输出系统变量，如日期等
 
