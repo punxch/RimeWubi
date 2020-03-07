@@ -31,9 +31,11 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ### 使用前的一些用户习惯说明
 
-**<kbd>control</kbd> + <kbd>0</kbd> 弹出菜单**
+**<kbd>control</kbd> + <kbd>0</kbd> 或者 <kbd>shift</kbd> + <kbd>control</kbd> + <kbd>0</kbd> 弹出菜单**
 
-> 如果不弹出，应该是目前的软件环境屏蔽了这个组合键（如：MWeb），换个软件再按就可以了
+> 如果第一个组合键不弹出菜单，就用第二个组合键，如果还不弹出就换个软件，进入输入状态再试
+> 有时候是目前的软件环境屏蔽了这个组合键（如：MWeb 中 <kbd>control</kbd> + <kbd>0</kbd> 这个组合键就冲突），换个软件再按就可以了
+
 弹的菜单中第一位的名字就是当前使用的输入法方案，其后跟着的就是该方法中的输入法菜单，有【半角 - 全角】【简 - 繁】等功能菜单，再后面的就是其它可选的输入法方案，对应 `default.custom.yaml` 中 `schema_list` 字段内容
 
 
@@ -215,7 +217,8 @@ translator:
 | y           | 月圆亿        |
 
 输入案例：
-<img title="1" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/input_number.gif" width="500">
+
+<img title="大写数字输入案例" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/input_number.gif" width="500">
 
 
 
