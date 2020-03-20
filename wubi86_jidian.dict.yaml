@@ -12,6 +12,7 @@ import_tables: #此处是添加用户自定义词库的地方
   - wubi86_jidian_extra_pro           # 专业名词
   - wubi86_jidian_extra_media         # 影音名
   - wubi86_jidian_extra_game          # 游戏相关
+  - wubi86_jidian_extra_event         # 事件相关
 
 
 
@@ -3692,7 +3693,6 @@ encoder:
 切诊	avyw
 共	aw
 花	aw
-Apple Watch	aw
 花式	awaa
 花茎	awac
 花期	awad
@@ -5070,6 +5070,7 @@ Apple Watch	aw
 阳世	bjan
 阳萎	bjat
 随时随地	bjbf
+防晒霜	bjfs
 阿里巴巴	bjcc
 阳台	bjck
 聚蚊成雷	bjdf
@@ -7981,6 +7982,7 @@ Apple Watch	aw
 驻防	cyby
 能文能武	cycg
 驴骡	cycl
+验证码	cydc
 骟马	cycn
 叉腰	cyes
 驻地	cyfb
@@ -18226,6 +18228,7 @@ Apple Watch	aw
 墒	fumk
 增删	fumm
 境内	fumw
+丧尸	funn
 墒情	fung
 增收	funh
 增发	funt
@@ -19096,6 +19099,7 @@ Apple Watch	aw
 致敬	gcaq
 静观其变	gcay
 致函	gcbi
+亚马逊	gcbi
 璚	gcbk
 到了	gcbn
 瑈	gcbs
@@ -19945,6 +19949,7 @@ Apple Watch	aw
 一滩	ggic
 五湖	ggid
 王法	ggif
+环法	ggif
 弄不清	ggig
 琳琅满目	ggih
 平平淡淡	ggii
@@ -31536,6 +31541,7 @@ Apple Watch	aw
 晶莹	jjap
 日薪	jjau
 日子	jjbb
+蝎子	jjbb
 日出	jjbm
 电影院	jjbp
 昌隆	jjbt
@@ -39596,6 +39602,7 @@ Apple Watch	aw
 崨	mgvh
 同姓	mgvt
 同僚	mgwd
+赋值	mgwf
 同仁	mgwf
 同伙	mgwo
 同体	mgws
@@ -47990,6 +47997,7 @@ Apple Watch	aw
 裶	pudd
 褉	pudd
 裖	pude
+裸奔	pudf
 褥	pudf
 袥	pudg
 实在	pudh
@@ -51115,6 +51123,7 @@ Apple Watch	aw
 兔	qkqy
 鉂	qkqy
 免掉	qkrh
+铝热	qkrv
 斪	qkrh
 免提	qkrj
 钟摆	qkrl
@@ -52829,6 +52838,7 @@ Apple Watch	aw
 狓	qthc
 玃	qthc
 鈼	qthf
+银行卡	qthh
 犯上	qthh
 独步	qthi
 独占	qthk
@@ -53578,6 +53588,7 @@ Apple Watch	aw
 急变	qvyo
 银亮	qvyp
 争论	qvyw
+银座	qvyw
 急诊	qvyw
 争议	qvyy
 釰	qvyy
@@ -56648,6 +56659,7 @@ Apple Watch	aw
 罆	rmxm
 抽缩	rmxp
 制约	rmxq
+抽纸	rmxq
 投弹	rmxu
 投缘	rmxx
 缺编	rmxy
@@ -57903,6 +57915,7 @@ Apple Watch	aw
 打量	rsjg
 揸	rsjg
 撢	rsjh
+手机号	rskg
 打嗝	rskg
 抲	rskg
 打中	rskh
@@ -60570,6 +60583,7 @@ Apple Watch	aw
 丁当	sgiv
 酸涩	sgiv
 杯	sgiy
+西游	sgiy
 醒	sgj
 桓	sgj
 酷暑	sgjf
@@ -69944,6 +69958,7 @@ Apple Watch	aw
 羮	ugoy
 病害	ugpd
 病家	ugpe
+新型冠状病毒	ugpg
 美军	ugpl
 间不容发	ugpn
 盖被	ugpu
@@ -73086,6 +73101,7 @@ Apple Watch	aw
 好景	vbjy
 好呀	vbka
 好啊	vbkb
+好吧	vbkc
 好吗	vbkc
 好喝	vbkj
 好听	vbkr
@@ -75971,6 +75987,7 @@ Apple Watch	aw
 佅	wfiy
 仐	wfj
 癷	wfj
+佳明	wfje
 会盟	wfje
 傋	wfjf
 会晤	wfjg
@@ -79246,6 +79263,7 @@ Apple Watch	aw
 人命关天	wwug
 人间	wwuj
 从商	wwum
+坐姿	wwuq
 人次	wwuq
 偷盗	wwuq
 偷闲	wwus
@@ -79786,7 +79804,7 @@ Apple Watch	aw
 燞	wyqo
 保证金	wyqq
 集锦	wyqr
-偏锋	wyqt
+今儿	wyqt
 停匀	wyqu
 焦急	wyqv
 停留	wyqy
@@ -80745,6 +80763,7 @@ Apple Watch	aw
 綀	xgki
 线呢	xgkn
 缰	xgl
+纯黑	xglf
 线团	xglf
 缰	xglg
 彊	xglg
