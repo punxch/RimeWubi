@@ -69,6 +69,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
 ├── wubi86_jidian_user.dict.yaml            # 扩展词库 - 用户个人词库
 ├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
+├── wubi86_jidian_extra_event.dict.yaml     # 扩展词库 - 事件相关
 ├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
 ├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
 ├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
@@ -98,6 +99,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
     ├── wubi86_jidian.schema.yaml
     ├── wubi86_jidian_user.dict.yaml
     ├── wubi86_jidian_extra_brand.dict.yaml
+    ├── wubi86_jidian_extra_event.dict.yaml
     ├── wubi86_jidian_extra_english.dict.yaml
     ├── wubi86_jidian_extra_location.dict.yaml
     ├── wubi86_jidian_extra_media.dict.yaml
@@ -153,6 +155,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
 ├── wubi86_jidian_user.dict.yaml            # 扩展词库 - 用户个人词库
 ├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
+├── wubi86_jidian_extra_event.dict.yaml     # 扩展词库 - 事件相关
 ├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
 ├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
 ├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
