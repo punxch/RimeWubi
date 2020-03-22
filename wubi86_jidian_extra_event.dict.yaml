@@ -1,5 +1,6 @@
 ---
 name: wubi86_jidian_extra_event
+note: "事件"
 version: "2020-03-20"
 last_edit_time: "2020-03-20"
 
@@ -12,4 +13,5 @@ sort: original
 新型冠状病毒	ugpg
 小汤山	iimm
 火神山	opmm
+雷神山	fpmm
 汶川	iykt
