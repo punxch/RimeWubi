@@ -6122,6 +6122,7 @@ encoder:
 隖	bwno
 附属	bwnt
 除以	bwny
+÷	bwny
 除数	bwov
 除害	bwpd
 取人之长	bwpt
@@ -22658,6 +22659,7 @@ encoder:
 一生一世	gtga
 严惩不怠	gtgc
 不管不顾	gtgd
+不等于	gtgf
 珄	gtgg
 不得不	gtgi
 不知不觉	gtgi
@@ -22968,6 +22970,7 @@ encoder:
 平庸	guyv
 下半夜	guyw
 平方	guyy
+㎡	guyy
 妻	gv
 天女散花	gvaa
 不好惹	gvad
@@ -30216,6 +30219,7 @@ encoder:
 小夜曲	iyma
 滈	iymk
 注册	iymm
+®	iymm
 沆	iymn
 流风	iymq
 浪峰	iymt
@@ -57511,6 +57515,7 @@ encoder:
 的	rqy
 拘谨	rqya
 摄氏度	rqya
+℃	rqya
 换衣	rqye
 挽诗	rqyf
 揈	rqyg
@@ -62642,6 +62647,7 @@ encoder:
 樔	svjs
 概览	svjt
 根号	svkg
+√	svkg
 柖	svkg
 要路	svkh
 要员	svkm
@@ -65367,6 +65373,7 @@ encoder:
 臭棋	thsa
 臲	thsb
 版权	thsc
+©	thsc
 版本	thsg
 片酬	thsg
 自相	thsh
@@ -67826,6 +67833,8 @@ T恤	tntl
 和颜悦色	tunq
 身首异处	tunt
 自尊心	tuny
+乘以	tuny
+×	tuny
 乱头粗服	tuoe
 乘数	tuov
 等闲之辈	tupd
@@ -68149,6 +68158,7 @@ T恤	tntl
 籂	twph
 知人之明	twpj
 千分之	twpp
+‰	twpp
 乘人之危	twpq
 知命之年	twpr
 答案	twpv
@@ -70490,6 +70500,12 @@ T恤	tntl
 韵律	ujtv
 音律	ujtv
 音符	ujtw
+♩	ujtw
+♪	ujtw
+♫	ujtw
+♬	ujtw
+♭	ujtw
+♮	ujtw
 童稚	ujtw
 单瘫	ujuc
 韶关	ujud
@@ -72285,6 +72301,7 @@ T恤	tntl
 立说	uuyu
 立论	uuyw
 立方	uuyy
+m³	uuyy
 妆	uv
 兼营	uvap
 新婚燕尔	uvaq
@@ -79427,6 +79444,7 @@ T恤	tntl
 华容	wxpw
 佛祖	wxpy
 华氏	wxqa
+℉	wxqa
 货色	wxqc
 化解	wxqe
 化外	wxqh
@@ -81965,6 +81983,7 @@ T恤	tntl
 张开	xtga
 终至	xtgc
 终于	xtgf
+≈	xtgf
 缍	xtgf
 綞	xtgf
 緟	xtgf
@@ -88204,3 +88223,4 @@ u	copu
 ㄦ	cooy
 ⌘	cocm
 	coap
+℃	cocc
