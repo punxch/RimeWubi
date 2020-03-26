@@ -216,7 +216,6 @@ Windows 中的配置方法：
 speller:
 #  max_code_length: 4                    # 四码上屏
 #  auto_select: true                     # 自动上屏
-#  auto_select_unique_candidate: true    # 无重码自动上屏
 
 translator:
   # 开启自动造词相关设置
