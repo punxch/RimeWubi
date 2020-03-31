@@ -41,20 +41,23 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ### 3. 默认二三候选
 默认的二三候选是 `;` `'` 两个键
 
-### 4. 支持 简入繁出
+### 4. 临时拼音输入
+在忘了某字的五笔编码时，<kbd>z</kbd>键可以进入临时拼音输入模式
+
+### 5. 支持 简入繁出
 <img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime-tradition-output.gif" width=500 title="简入繁出">
 
 是以切换输入方案的形式实现的，使用时，调出菜单，选择 `极点五笔繁体` 方案即可
 > 以菜单实现有个弊端：在切换应用后繁体输出的设置并没有保留，也就是说不是全局的，以输入方案的形式就可以实现全局繁体输入。
 > 如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`，`macOS` `Windows10` 都测试正常
 
-### 5. 系统 `时间` 和 `日期`
+### 6. 系统 `时间` 和 `日期`
 
 输入对应词，获取当前日期和时间
 - `date` 输出日期，格式 `2019年06月19日` `2019-06-19`
 - `time` 输出时间，格式 `10:00` `10:00:00`
 
-### 6. 支持大写数字输入：壹贰叁肆伍陆
+### 7. 支持大写数字输入：壹贰叁肆伍陆
 
 本库中包含一个可以输入大写数字的方案，名叫 `大写数字`，呼出菜单选择该方案即可。
 在这个模式下：具体可以看源文件 [`numbers.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/numbers.schema.yaml)
@@ -204,39 +207,20 @@ Windows 中的配置方法：
 ├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏
 ```
 
-### 2. 开启五笔模式下的自动造词功能
-默认是没有开启的，如果想开启需要手动编辑 `wubi86_jidian.schema.yaml` 文件，里面也有相关的说明
+### 2. 关于手动造词功能
+目前造词功能还是有点不完善，有两种方式实现：
+**一、 手动往词库中添加词组，并重新布署**
+这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
+> 这个是最直接的方式，考虑以后整个工具用，放入五年计划中
 
-> 除了把文件中自动造词部分都设为 `true` 之外，还需要把 `speller` 那段的都注释掉，因为那里都是直接上屏的，直接上屏就无法造词了，所以需要注释掉。
-> 造词功能是这样的，在输入一次之后，输入法会记住这个连词，打的时候后面会有图标指示，下次再输入这个词的时候，就会固定这个词，并在用户词典中新增这个词的词条。
+**二、 就是使用手动造词功能**
+目前这个功能被放置到了另一个分支上 [/phrase](https://github.com/KyleBing/rime-wubi86-jidian/tree/phrase) ，可以实现：
 
-你修改后的配置应该是这样的：
+- 手动造词 <kbd>\`</kbd> 键开始，字与字还是用 <kbd>\`</kbd> 间隔
+- 不会影响原有词库的词序
 
-```yaml
-speller:
-#  max_code_length: 4                    # 四码上屏
-#  auto_select: true                     # 自动上屏
-
-translator:
-  # 开启自动造词相关设置
-  enable_sentence: ture                # 是否开启句子输入模式
-  enable_user_dict: ture               # 是否开启用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: ture                 # 自动造词
-  encode_commit_history: ture          # 是否对已上屏的词自动造词
-```
-
-效果如图：
-
-<img title="1" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-1.png" width="500">
-
-<img title="2" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-2.png" width="500">
-
-<img title="3" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-3.png" width="500">
-
-<img title="4" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-4.png" width="500">
 
 ### 3. 输出系统变量
-
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
