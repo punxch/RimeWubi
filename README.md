@@ -212,7 +212,7 @@ Windows 中的配置方法：
 
 #### 一、 手动往词库中添加词组，并重新布署
 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
-> 这个是最直接的方式，考虑以后整个工具用，放入五年计划中
+> 这个是最直接的方式，考虑以后整个工具用，放入五年计划中 [WubiBuddy - macOS](https://github.com/KyleBing/WubiBuddy)
 
 #### 二、 就是使用手动造词功能
 目前这个功能被放置到了另一个分支上 [/phrase](https://github.com/KyleBing/rime-wubi86-jidian/tree/phrase) ，可以实现：
