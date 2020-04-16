@@ -4,7 +4,7 @@ note: "eMoji"
 version: "2020-04-15"
 last_edit_time: "2020-04-15"
 
-sort: by_weight
+sort: original
 # 码表的排序方式
   # by_weight 权重
   # original 原始顺序
