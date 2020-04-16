@@ -13,9 +13,7 @@ import_tables: #此处是添加用户自定义词库的地方
   - wubi86_jidian_extra_media         # 影音名
   - wubi86_jidian_extra_game          # 游戏相关
   - wubi86_jidian_extra_event         # 事件相关
-
-
-
+  - wubi86_jidian_extra_emoji         # emoji
 
 
 columns:    # 码表格式
@@ -3931,7 +3929,7 @@ encoder:
 花枝	awsf
 茶杯	awsg
 东倒西歪	awsg
-共相	awsh
+花椒	awsh
 荷	awsk
 茶楼	awso
 东食西宿	awsp
@@ -4966,6 +4964,7 @@ encoder:
 隔离	bgyb
 也不为过	bgyf
 耳语	bgyg
+卫衣	bgye
 隔扇	bgyn
 隔夜	bgyw
 耳廓	bgyy
@@ -7964,6 +7963,7 @@ encoder:
 双人床	cwys
 难说	cwyu
 难言	cwyy
+对比度	cxya
 又红又专	cxcf
 圣经贤传	cxjw
 双引号	cxkg
@@ -14497,6 +14497,7 @@ encoder:
 喜出望外	fbyq
 地府	fbyw
 地方	fbyy
+过了这村没这店	fbyy
 支	fc
 动工	fcaa
 劫匪	fcad
@@ -14946,6 +14947,7 @@ encoder:
 款项	ffad
 土匪	ffad
 壩	ffae
+运动鞋	ffaf
 土著	ffaf
 土葬	ffag
 干云蔽日	ffaj
@@ -15749,6 +15751,7 @@ encoder:
 直斥	fhry
 走棋	fhsa
 越权	fhsc
+真棒	fhsd
 超标	fhsf
 盐酸	fhsg
 真相	fhsh
@@ -19224,6 +19227,7 @@ encoder:
 天花	gdaw
 不厌其详	gday
 一辈子	gdbb
+下辈子	gdbb
 天子	gdbb
 天阴	gdbe
 天际	gdbf
@@ -23789,6 +23793,7 @@ encoder:
 卡耐基	hdad
 虚有其表	hdag
 矋	hday
+上辈子	hdbb
 郹	hdbh
 点石成金	hddq
 卓有成效	hddu
@@ -24953,6 +24958,7 @@ encoder:
 瞷	hujg
 瞕	hujh
 虎头蛇尾	hujn
+瞳距	hukh
 点头哈腰	huke
 战斗力	hult
 矙	hunt
@@ -34430,8 +34436,8 @@ encoder:
 路径	khtc
 跃	khtd
 中盘	khte
-中等	khtf
 中午	khtf
+中等	khtf
 忠告	khtf
 踵	khtf
 贵重	khtg
@@ -41500,6 +41506,7 @@ encoder:
 民企	nawh
 以工代赈	nawm
 鴖	nawo
+以其人之道还至其人之身	nawt
 异父	nawq
 异体	naws
 展位	nawu
@@ -43285,6 +43292,7 @@ encoder:
 恂	nqj
 惸	nqjb
 恂	nqjg
+书名号	nqkg
 怐	nqkg
 翑	nqkg
 悗	nqkq
@@ -53195,7 +53203,7 @@ encoder:
 狼	qty
 乂	qty
 鉌	qty
-猜度	qtya
+饱和度	qtya
 猵	qtya
 独享	qtyb
 狱	qtyd
@@ -58226,6 +58234,7 @@ encoder:
 托名	rtqk
 手镯	rtql
 手包	rtqn
+挺多	rtqq
 托钵	rtqs
 托儿	rtqt
 拖欠	rtqw
@@ -58863,6 +58872,7 @@ encoder:
 招人	rvww
 热化	rvwx
 搜集	rvwy
+执念	rvwy
 抛售	rvwy
 招领	rvwy
 殷红	rvxa
@@ -86148,6 +86158,7 @@ m³	uuyy
 订票	yssf
 塺	yssf
 麻醉	yssg
+麻椒	yssh
 犘	yssh
 麻	yssi
 縻	yssi
