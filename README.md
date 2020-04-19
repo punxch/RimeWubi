@@ -96,26 +96,20 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ```bash
 .
 ├── README.md                               # 当前说明文档
+├── rime.lua                                # 配置文件 - 可以输出系统变量的函数
+├── default.custom.yaml                     # 配置文件 - 自定义一些输入法的功能：标点，二三候选等
+├── squirrel.custom.yaml                    # 配置文件 - 鼠须管（for macOS）输入法候选词界面
+├── weasel.custom.yaml                      # 配置文件 - 小狼毫（for Windows）输入法候选词界面
 ├── numbers.schema.yaml                     # 输入方案 - 大写数字
-├── rime.lua                                # 可以输出系统变量的函数
-├── default.custom.yaml                     # 自定义一些输入法的功能：标点，二三候选等
-├── pinyin_simp.dict.yaml                   # 简体拼音码表 - 五笔中拼音输入需要的
-├── pinyin_simp.schema.yaml                 # 输入方案 - 简体拼音
-├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
-├── weasel.custom.yaml                      # 小狼毫（for Windows）输入法候选词界面
-├── wubi86_jidian.dict.yaml                 # 极点 - 五笔码表
 ├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
-├── wubi86_jidian_user.dict.yaml            # 扩展词库 - 用户个人词库
-├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
-├── wubi86_jidian_extra_event.dict.yaml     # 扩展词库 - 事件相关
-├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
-├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
-├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
-├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
-├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
-├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏
+├── pinyin_simp.schema.yaml                 # 输入方案 - 简体拼音
 ├── wubi86_jidian_pinyin.schema.yaml        # 输入方案 - 五笔拼音混输
 └── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
+├── pinyin_simp.dict.yaml                   # 词库文件 - 简体拼音码表 - 五笔中拼音输入需要的
+├── wubi86_jidian.dict.yaml                 # 词库文件 - 极点五笔主码表
+├── wubi86_jidian_addition.dict.yaml        # 词库文件 - WubiBuddy 用户词添加工具主操作文件
+├── wubi86_jidian_user.dict.yaml            # 词库文件 - 用户私人词库
+├── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
 ```
 
 
@@ -137,14 +131,8 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
     ├── wubi86_jidian.dict.yaml
     ├── wubi86_jidian.schema.yaml
     ├── wubi86_jidian_user.dict.yaml
-    ├── wubi86_jidian_extra_brand.dict.yaml
-    ├── wubi86_jidian_extra_event.dict.yaml
-    ├── wubi86_jidian_extra_english.dict.yaml
-    ├── wubi86_jidian_extra_location.dict.yaml
-    ├── wubi86_jidian_extra_media.dict.yaml
-    ├── wubi86_jidian_extra_people.dict.yaml
-    ├── wubi86_jidian_extra_pro.dict.yaml
-    ├── wubi86_jidian_extra_game.dict.yaml
+    ├── wubi86_jidian_addition.dict.yaml
+    ├── wubi86_jidian_extra.dict.yaml
     ├── wubi86_jidian_pinyin.schema.yaml
     └── wubi86_jidian_trad.schema.yaml  
 ```
@@ -183,36 +171,16 @@ Windows 中的配置方法：
 - 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
 
 
-
 ## 关于自定义一些功能
 
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`
 
-### 1. 各文件作用说明
-
-```bash
-├── numbers.schema.yaml                     # 输入方案 - 大写数字
-├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
-├── weasel.custom.yaml                      # 小狼毫（for Windows）输入法候选词界面
-├── default.custom.yaml                     # 自定义一些输入法的功能：标点，二三候选等
-├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
-├── wubi86_jidian_user.dict.yaml            # 扩展词库 - 用户个人词库
-├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
-├── wubi86_jidian_extra_event.dict.yaml     # 扩展词库 - 事件相关
-├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
-├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
-├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
-├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
-├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
-├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏
-```
-
-### 2. 关于手动造词功能
+### 1. 关于手动造词功能
 目前造词功能还是有点不完善，有两种方式实现：
 
 #### 一、 手动往词库中添加词组，并重新布署
 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
-> 这个是最直接的方式，考虑以后整个工具用，放入五年计划中 [WubiBuddy - macOS](https://github.com/KyleBing/WubiBuddy)
+目前可以实现简单的用户词添加功能，仅支持 `macOS`  [WubiBuddy - macOS](https://github.com/KyleBing/WubiBuddy)
 
 #### 二、 就是使用手动造词功能
 目前这个功能被放置到了另一个分支上 [/phrase](https://github.com/KyleBing/rime-wubi86-jidian/tree/phrase) ，可以实现：
@@ -221,7 +189,7 @@ Windows 中的配置方法：
 - 不会影响原有词库的词序
 
 
-### 3. 输出系统变量
+### 2. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
