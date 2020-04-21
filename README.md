@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 
-## 前言
+## 一、前言
 
 Rime 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
 
@@ -27,7 +27,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 <img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/Rime%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.gif" width=600 title="Rime五笔输入法输入样子">
 
 
-## 使用说明
+## 二、使用说明
 
 ### 1. 呼出菜单
 在输入状态时，<kbd>control</kbd> + <kbd>0</kbd> 或者 <kbd>shift</kbd> + <kbd>control</kbd> + <kbd>0</kbd> 弹出菜单
@@ -83,13 +83,13 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 <img title="大写数字输入案例" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/input_number.gif" width="500">
 
 
-## 安装
+## 三、安装
 
-### 一、安装 鼠须管(macOS)
+### 1. 安装 鼠须管(macOS)
 去 [官网下载](https://rime.im/download/)，按步骤安装即可
 
 
-#### 1. 下载 五笔配置文件
+#### 1) 下载 五笔配置文件
 也就是当前库，直接下载即可 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 
 其中的文件列表有：
@@ -113,7 +113,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ```
 
 
-#### 2. 设置五笔输入法 macOS 鼠须管
+#### 2) 设置五笔输入法 macOS 鼠须管
 1. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime` 
 2. 把上面下载的文件移到该目录中，点击 <kbd>部署</kbd> 即可。
 
@@ -140,12 +140,12 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 > 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
 
-#### 3. 皮肤
+#### 3) 皮肤
 
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=500 />
 
 
-### 二、配置 小狼毫（Windows）
+### 2. 配置 小狼毫（Windows）
 
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/windows_skin.png" width=300 />
 
@@ -156,7 +156,7 @@ Windows 中的配置方法：
 4. 点击开始菜单中的【部署】即可
 
 
-## 其它相关链接
+## 四、其它相关链接
 
 **资源链接**
 - 极点五笔方案(github)： [https://github.com/KyleBing/rime-wubi86-jidan](https://github.com/KyleBing/rime-wubi86-jidan)
@@ -171,25 +171,34 @@ Windows 中的配置方法：
 - 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
 
 
-## 关于自定义一些功能
+## 五、关于自定义一些功能
 
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`
 
-### 1. 关于手动造词功能
+### 1. 回车清码
+默认是关闭的
+打开 `default.custom.yaml` 文件，找到下面这行，把前面的 `#` 去掉，跟上面对齐即可开启回车清码功能
+
+```yaml
+     - {accept: Return, send: Escape, when: composing}   # 回车清码
+```
+
+### 2. 关于手动造词功能
 目前造词功能还是有点不完善，有两种方式实现：
 
-#### 一、 手动往词库中添加词组，并重新布署
-这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
-目前可以实现简单的用户词添加功能，仅支持 `macOS`  [WubiBuddy](https://github.com/KyleBing/WubiBuddy)
+#### a. 手动往词库中添加词组，并重新布署
+> 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
-#### 二、 就是使用手动造词功能
+目前 `macOS` 可以通过工具 [WubiBuddy](https://github.com/KyleBing/WubiBuddy) 来实现用户词的添加功能，仅支持 `macOS`  
+
+#### b. 就是使用手动造词功能
 目前这个功能被放置到了另一个分支上 [/phrase](https://github.com/KyleBing/rime-wubi86-jidian/tree/phrase) ，可以实现：
 
 - 手动造词 <kbd>\`</kbd> 键开始，字与字还是用 <kbd>\`</kbd> 间隔
 - 不会影响原有词库的词序
 
 
-### 2. 输出系统变量
+### 3. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
