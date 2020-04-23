@@ -104,12 +104,12 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
 ├── pinyin_simp.schema.yaml                 # 输入方案 - 简体拼音
 ├── wubi86_jidian_pinyin.schema.yaml        # 输入方案 - 五笔拼音混输
-└── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
+├── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
 ├── pinyin_simp.dict.yaml                   # 词库文件 - 简体拼音码表 - 五笔中拼音输入需要的
 ├── wubi86_jidian.dict.yaml                 # 词库文件 - 极点五笔主码表
 ├── wubi86_jidian_addition.dict.yaml        # 词库文件 - WubiBuddy 用户词添加工具主操作文件
 ├── wubi86_jidian_user.dict.yaml            # 词库文件 - 用户私人词库
-├── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
+└── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
 ```
 
 
@@ -190,6 +190,8 @@ Windows 中的配置方法：
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
 目前 `macOS` 可以通过工具 [WubiBuddy](https://github.com/KyleBing/WubiBuddy) 来实现用户词的添加功能，仅支持 `macOS`  
+
+<img width="629" alt="v1 13" src="https://user-images.githubusercontent.com/12215982/80066778-36793a80-856f-11ea-8f7f-504ee130222b.png">
 
 #### b. 就是使用手动造词功能
 目前这个功能被放置到了另一个分支上 [/phrase](https://github.com/KyleBing/rime-wubi86-jidian/tree/phrase) ，可以实现：
