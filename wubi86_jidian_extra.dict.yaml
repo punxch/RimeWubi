@@ -14,7 +14,7 @@ sort: original
 
 # --- 影视 ---
 # 电视剧
-闯关东	uuai
+
 铁齿铜牙纪晓岚	qhqm
 纪晓岚	xjmm
 和珅	tkgj
@@ -29,14 +29,6 @@ sort: original
 黑客帝国	lpul
 利刃出鞘	tvba
 电锯惊魂	jqnf
-# 漫威
-漫威	ijdg
-复联	tjbu
-复仇者联盟	twfj
-灭霸	gofa
-钢铁侠	qqgu
-蜘蛛侠	jjwg
-黑寡妇	lpvv
 # 歌名
 寄居蟹	pnqe
 斑马	gycn
@@ -61,21 +53,6 @@ vivo	vivo
 Oppo	oppo
 oppo	oppo
 金立	qquu
-
-
-# --- English ---
-Macbook	macb
-MacbookPro	mbp
-Apple	appl
-iPod	ipod
-iPad	ipad
-iPhone	ipho
-mini	mini
-macOS	maco
-iOS	ios
-Apple Watch	aw
-Windows	wind
-Win	win
 
 # --- 人物 ---
 # 歌手
@@ -111,14 +88,6 @@ Win	win
 
 # --- 专业名词 ---
 # 计算机相关
-传参	wfcd
-适配	tdsg
-推送	rwud
-卡顿	hhgb
-回调	lkym
-数据类型	orog
-数据线	orxg
-阿里云	bjfc
 json	json
 java	java
 php	php
