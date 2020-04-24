@@ -5,7 +5,7 @@
 
 ## 一、前言
 
-Rime 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
+Rime（中州韵） 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
 
 - `Windows` - 小狼毫 (weasel)
 - `macOS` - 鼠须管 (squirrel)
@@ -189,7 +189,7 @@ Windows 中的配置方法：
 #### a. 手动往词库中添加词组，并重新布署
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
-目前 `macOS` 可以通过工具 [WubiBuddy](https://github.com/KyleBing/WubiBuddy) 来实现用户词的添加功能，仅支持 `macOS`  
+目前 `macOS` 可以通过工具 [码表助手](https://github.com/KyleBing/WubiBuddy/releases) 来实现用户词的添加功能，仅支持 `macOS`  
 
 <img width="629" alt="v1 13" src="https://user-images.githubusercontent.com/12215982/80066778-36793a80-856f-11ea-8f7f-504ee130222b.png">
 
