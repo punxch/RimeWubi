@@ -510,7 +510,11 @@ encoder:
 茂	adn
 基层	adnf
 苦情	adng
+芸豆	afgk
 薄薄	aiai
+AirPods	airp
+AirPods Pro	airp
+AirPower	airp
 项羽	amnn
 藏书	adnn
 藏	adnt
@@ -2572,6 +2576,7 @@ encoder:
 薮	ao
 工业区	aoaq
 蒌蒿	aoay
+黄焖鸡	aocq
 薠	aodm
 蘱	aodm
 营业厅	aods
@@ -3684,7 +3689,6 @@ Apple	appl
 荨麻	avys
 芄	avyu
 切诊	avyw
-Apple Watch	aw
 共	aw
 花	aw
 花式	awaa
@@ -5315,6 +5319,7 @@ Apple Watch	aw
 出色	bmqc
 出钱	bmqg
 出外	bmqh
+出锅	bmqk
 出名	bmqk
 聘金	bmqq
 出铁	bmqr
@@ -7936,6 +7941,7 @@ Apple Watch	aw
 难忍	cwvy
 难舍	cwwf
 难倒	cwwg
+鸡公煲	cwwk
 难保	cwwk
 马仰人翻	cwwt
 难分	cwwv
@@ -17525,6 +17531,7 @@ Apple Watch	aw
 无极	fqse
 元配	fqsg
 均可	fqsk
+运算符	fttw
 元歌	fwsk
 无机	fqsm
 无核	fqsy
@@ -20142,6 +20149,7 @@ Apple Watch	aw
 一次	gguq
 一瓣	ggur
 一新	ggus
+一首	ggut
 一道	ggut
 一门	gguy
 五好	ggvb
@@ -27921,6 +27929,7 @@ Apple Watch	aw
 烫蜡	inja
 汤匙	injg
 漏电	injn
+游民星空	injp
 浺	inkh
 澼	inku
 漏罪	inld
@@ -35678,6 +35687,7 @@ iPod	ipod
 听信	krwy
 呹	krwy
 喞	krxb
+吹拉弹唱	krxk
 跨年度	krya
 听讲	kryf
 听证	kryg
@@ -35762,6 +35772,7 @@ iPod	ipod
 吃劲	ktca
 呼台	ktck
 响马	ktcn
+吃鸡	ktcq
 中科大	ktdd
 咶	ktdg
 嘺	ktdk
@@ -35819,6 +35830,7 @@ iPod	ipod
 唎	ktjh
 唯利是图	ktjl
 咯	ktk
+哦吼	ktkb
 呼喊	ktkd
 呼吸	ktke
 咯吱	ktkf
@@ -39906,6 +39918,7 @@ mini	mini
 廽	mjdp
 逥	mjdp
 同日而语	mjdy
+网易云	mjfc
 嵵	mjff
 则无	mjfq
 赐教	mjft
@@ -42165,6 +42178,7 @@ mini	mini
 怌	ngig
 恒温	ngij
 刁滑	ngim
+Nginx	ngin
 心理学	ngip
 恒河	ngis
 屋梁	ngiv
@@ -52350,6 +52364,7 @@ mini	mini
 多么	qqtc
 爻辞	qqtd
 钓船	qqte
+多行	qqtf
 钓竿	qqtf
 多重	qqtg
 金牌	qqth
@@ -55471,6 +55486,7 @@ mini	mini
 攋	rgkm
 逅	rgkp
 摗	rgkw
+后置	rglf
 抹黑	rglf
 兵团	rglf
 兵车	rglg
@@ -58130,7 +58146,7 @@ mini	mini
 插	rtf
 拖地	rtfb
 郫	rtfb
-拖动	fctr
+拖动	rtfc
 手动	rtfc
 搬运	rtfc
 托运	rtfc
@@ -58563,6 +58579,7 @@ mini	mini
 拉锯	ruqn
 拉钩	ruqq
 拼杀	ruqs
+看门狗	ruqt
 拌匀	ruqu
 拼争	ruqv
 皎	ruqy
@@ -58712,6 +58729,7 @@ mini	mini
 热能	rvce
 势能	rvce
 摡	rvcq
+扫码	rvdc
 挚友	rvdc
 热压	rvdf
 挪威	rvdg
@@ -59635,6 +59653,7 @@ mini	mini
 棧	saat
 横切	saav
 横巷	saaw
+西葫芦	saay
 横匾	saay
 栉	sab
 横陈	saba
@@ -60487,6 +60506,7 @@ mini	mini
 醋	sga
 西式	sgaa
 醆	sgaa
+西葫	sgad
 西藏	sgad
 酸菜	sgae
 酣	sgaf
@@ -63357,6 +63377,7 @@ mini	mini
 长排	tard
 得其所哉	tarf
 长年	tarh
+长按	tarp
 长逝	tarr
 移花接木	tars
 长势	tarv
@@ -63794,6 +63815,7 @@ mini	mini
 敌军	tdpl
 甜蜜	tdpn
 知之	tdpp
+短袖	tdpu
 短裤	tdpu
 短裙	tdpu
 短袜	tdpu
@@ -66538,6 +66560,7 @@ mini	mini
 币值	tmwf
 躺倒	tmwg
 移山倒海	tmwi
+奥体	tmws
 微信	tmwy
 鵚	tmwo
 自由作家	tmwp
@@ -67669,6 +67692,7 @@ T恤	tntl
 夂	ttny
 笑料	ttou
 篍	ttou
+奥德赛	ttpf
 乔迁之喜	ttpf
 自知之明	ttpj
 先入之见	ttpm
@@ -70281,6 +70305,7 @@ T恤	tntl
 冷清清	uiig
 冰水	uiii
 冰光	uiiq
+冰淇淋	uiis
 冰河	uiis
 痧	uiit
 閯	uiit
@@ -74042,6 +74067,7 @@ m³	uuyy
 娼妓	vjvf
 妖里妖气	vjvr
 娼妇	vjvv
+那时候	vjwh
 婫	vjxx
 如日方升	vjyt
 如	vk
@@ -74373,6 +74399,7 @@ m³	uuyy
 始料未及	vofe
 灵境	vofu
 始料不及	voge
+灵眸	vohc
 灵堂	voip
 灵光	voiq
 灵活	voit
@@ -76707,6 +76734,7 @@ m³	uuyy
 侠	wgu
 合并	wgua
 优惠券	wgud
+优惠券	wgud
 债券	wgud
 倒闭	wguf
 便装	wguf
@@ -77280,6 +77308,7 @@ Windows	wind
 儇	wlge
 伡	wlh
 俥	wlh
+健胃消食片	wlit
 佛罗里达	wljd
 伽	wlk
 伽	wlkg
@@ -82352,6 +82381,7 @@ Windows	wind
 绿茵	xval
 绿营	xvap
 绿茶	xvaw
+弱女子	xvbb
 红刀子出	xvbb
 绿队	xvbw
 絕	xvcn
