@@ -184,20 +184,13 @@ Windows 中的配置方法：
 ```
 
 ### 2. 关于手动造词功能
-目前造词功能还是有点不完善，有两种方式实现：
 
-#### a. 手动往词库中添加词组，并重新布署
+手动往词库中添加词组，并重新布署
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
 目前 `macOS` 可以通过工具 [码表助手](https://github.com/KyleBing/WubiBuddy/releases) 来实现用户词的添加功能，仅支持 `macOS`  
 
 <img width="703" alt="main" src="https://user-images.githubusercontent.com/12215982/80705752-8cbf1e00-8b19-11ea-8f0f-7134f3cd9585.png">
-
-#### b. 就是使用手动造词功能
-目前这个功能被放置到了另一个分支上 [/phrase](https://github.com/KyleBing/rime-wubi86-jidian/tree/phrase) ，可以实现：
-
-- 手动造词 <kbd>\`</kbd> 键开始，字与字还是用 <kbd>\`</kbd> 间隔
-- 不会影响原有词库的词序
 
 
 ### 3. 输出系统变量
